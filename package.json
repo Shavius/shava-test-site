@@ -14,7 +14,8 @@
 		"pre": "prettier --check ./",
 		"all": "npm run lint & npm run pre",
 		"firebase": "firebase",
-		"deploy": "npm run firebase deploy"
+		"deploy": "firebase deploy",
+		"fb:list": "firebase hosting:channel:list"
 	},
 	"keywords": [],
 	"author": "",
